@@ -1,7 +1,7 @@
 {
-  "name": "censorify-alexgrand",
-  "version": "0.1.1",
-  "description": "Censors words out of text",
+  "name": "censorify-alexgrandlex",
+  "version": "0.0.1",
+  "description": "Censors words of text",
   "main": "censortext.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "censor",
     "words"
   ],
-  "author": "Alex Grand",
+  "author": "'Alex Grand'",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexgrand/censorify/issues"

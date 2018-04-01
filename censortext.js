@@ -3,10 +3,10 @@ const censoredWords = ['sad', 'bad', 'mad'];
 const customCensorWords = [];
 const censor = (inStr) => {
 	censoredWords.forEach((it) => {
-		inStr = inStr.replace(censoredWords[it], '****');
+		inStr = inStr.replace(it, '****');
 	});
 	customCensorWords.forEach((it) => {
-		inStr = inStr.replace(customCensorWords[it], '****');
+		inStr = inStr.replace(it, '****');
 	});
 	return inStr;
 };
